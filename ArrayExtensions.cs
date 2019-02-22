@@ -30,7 +30,7 @@ namespace PadawansTask11
             if (array.Length < 3)
                 throw new ArgumentException();
             if (accuracy < 0 || accuracy > 1)
-                throw new ArgumentException();
+                throw new ArgumentOutOfRangeException();
 
             double[] subarrLeft;
             double[] subarrRight;
